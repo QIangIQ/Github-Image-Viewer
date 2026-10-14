@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub Image Viewer - Thumbnail Gallery for Repos",
+  "short_name": "GitHub Image Viewer",
+  "version": "1.0.0",
+  "description": "See every image in a GitHub folder as a thumbnail grid. Adjustable size, images per row, and a full-size lightbox.",
+  "homepage_url": "https://qiangiq.github.io/Github-Image-Viewer/",
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}

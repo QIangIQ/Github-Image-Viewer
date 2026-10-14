@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="stone" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a2340"/>
+      <stop offset="0.45" stop-color="#110e1c"/>
+      <stop offset="1" stop-color="#05040a"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3b3358"/>
+      <stop offset="1" stop-color="#241f38"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#stone)"/>
+  <path d="M4 60 L60 4 L32 4 Q4 4 4 32 Z" fill="url(#sheen)"/>
+  <rect x="4.75" y="4.75" width="118.5" height="118.5" rx="27.25" fill="none" stroke="#a78bfa" stroke-opacity="0.35" stroke-width="1.5"/>
+  <g>
+    <rect x="26" y="26" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="53" y="26" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="80" y="26" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="26" y="53" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="53" y="53" width="22" height="22" rx="6" fill="url(#glow)"/>
+    <rect x="80" y="53" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="26" y="80" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="53" y="80" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <rect x="80" y="80" width="22" height="22" rx="6" fill="url(#tile)"/>
+    <path d="M57 70 L63 62 L67 67 L69.5 64.5 L72 70 Z" fill="#f5f3ff" fill-opacity="0.9"/>
+    <circle cx="68.5" cy="59" r="2" fill="#f5f3ff" fill-opacity="0.9"/>
+  </g>
+</svg>

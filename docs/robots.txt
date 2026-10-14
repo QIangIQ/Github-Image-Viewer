@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://qiangiq.github.io/Github-Image-Viewer/sitemap.xml
